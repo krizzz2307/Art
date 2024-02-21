@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mg{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bg-nav{
+    background-color: antiquewhite;
+}
+.radius{
+    border-radius: 50px;
+}
+.png{
+    z-index: 1;
+    position: absolute;
+    top:-122px;
+    
+}
+.font{
+    font-size: 200px;
+}
+.font-s{
+    z-index: 1;
+    position: absolute;
+    font-size: 60px;
+    bottom:439px;
+    font-weight: 500;
+}
+.future{
+    z-index: 1;
+    position: absolute;
+    font-size: 150px;
+    bottom:300px;
+    font-weight: 500;
+}
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.2);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #000000 !important;  
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
